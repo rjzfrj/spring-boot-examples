@@ -1,0 +1,10 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: spirng-boot-rabbitmq-example
+  rabbitmq:
+      addresses: 106.14.224.189:5672,101.132.158.118:5672,106.14.170.187:5672
+      username: admin
+      password: 123456
+      publisher-confirms: true
